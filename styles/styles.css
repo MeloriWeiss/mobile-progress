@@ -7,8 +7,19 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.progress-title {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
 .progress-pie-with-controllers {
-    padding-top: 70px;
+    padding-top: 30px;
     display: flex;
     gap: 80px;
     width: 100%;
@@ -56,7 +67,6 @@
     border-radius: 17px;
     display: flex;
     align-items: center;
-    font-family: Arial, sans-serif;
     font-size: 30px;
     font-weight: 500;
 }

@@ -14,6 +14,11 @@
         --slider-size: 18px;
     }
 
+    .progress-title {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
     .progress-pie {
         width: 110px;
         height: 110px;
