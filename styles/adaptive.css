@@ -65,4 +65,11 @@
     .progress-pie-with-controllers {
         gap: 60px;
     }
+
+    .progress-controller-slider::after {
+        height: 14px;
+        width: 3px;
+        top: 6px;
+        left: 10px;
+    }
 }

@@ -130,6 +130,32 @@ body {
     background-color: white;
     border-radius: 50%;
     transition: all .3s ease;
+    z-index: 10;
+}
+
+.progress-controller-slider::after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 4px;
+    background-color: white;
+    top: 9px;
+    left: 20px;
+    border-radius: 2px;
+}
+
+.progress-controller-circle {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 7px;
+    left: 55px;
+    border: 3px solid #777777;
+    border-radius: 50%;
+}
+
+.progress-controller-circle.lightblue {
+    border: 3px solid #7fb5c5;
 }
 
 .progress-controller-input:checked + .progress-controller-slider.lightblue {
