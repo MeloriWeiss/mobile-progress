@@ -1,0 +1,10 @@
+@media screen and (orientation:portrait) {
+    .progress-pie-with-controllers {
+        flex-direction: column;
+    }
+}
+@media screen and (orientation:landscape) {
+    .progress-pie-with-controllers {
+        flex-direction: row;
+    }
+}

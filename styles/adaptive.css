@@ -1,0 +1,63 @@
+@media screen and (orientation:portrait) {
+    .progress-pie-with-controllers {
+        flex-direction: column;
+    }
+}
+@media screen and (orientation:landscape) {
+    .progress-pie-with-controllers {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    :root {
+        --slider-size: 18px;
+    }
+
+    .progress-pie {
+        width: 110px;
+        height: 110px;
+    }
+
+    .progress-pie .progress-pie-center {
+        width: 90px;
+        height: 90px;
+    }
+
+    .progress-controllers {
+        width: 140px;
+    }
+
+    .progress-controller {
+        font-size: 18px;
+        height: 26px;
+    }
+
+    .progress-controller-slider {
+        width: 50px;
+        height: 26px;
+        border-radius: 13px;
+    }
+
+    .progress-controller-input:checked + .progress-controller-slider::before {
+        transform: translateX(24px);
+        -ms-transform: translateX(24px);
+    }
+
+    .progress-controller-input {
+        margin-right: 57px;
+    }
+
+    .progress-controller-input[type='number'] {
+        padding: 3px 6px;
+        margin-right: 10px;
+        width: 50px;
+        height: 26px;
+        border-radius: 13px;
+        font-size: 18px;
+    }
+
+    .progress-pie-with-controllers {
+        gap: 60px;
+    }
+}

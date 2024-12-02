@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Прогресс</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/adaptive.css">
+</head>
+<body>
+
+<div class="progress-pie-with-controllers">
+    <div class="progress-pie" id="progress-pie">
+        <div class="progress-pie-center"></div>
+    </div>
+    <div class="progress-controllers">
+        <label class="progress-controller">
+            <input type="number" class="progress-controller-input" id="value-input">
+            Value
+        </label>
+        <label class="progress-controller">
+            <input type="checkbox" class="progress-controller-input" id="animated-input">
+            Animated
+            <span class="progress-controller-slider lightblue"></span>
+        </label>
+        <label class="progress-controller">
+            <input type="checkbox" class="progress-controller-input" id="hide-input">
+            Hide
+            <span class="progress-controller-slider gray"></span>
+        </label>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
